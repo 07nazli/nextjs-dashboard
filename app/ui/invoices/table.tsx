@@ -76,7 +76,7 @@ export default async function InvoicesTable({
                   <span className="sr-only">Edit</span>
                 </th>
               </tr>
-            </thead>
+            </thead> 
             <tbody className="bg-white">
               {invoices?.map((invoice) => (
                 <tr
